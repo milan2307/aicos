@@ -1,0 +1,66 @@
+# AICOS Client Context Template
+# ---
+# Copy this file to data/clients/CLIENT-XXX/context.yaml and fill it in.
+# This file is the ONLY client file committed to git — it is the schema.
+# Real client files are gitignored.
+# ---
+# The more specific and honest this context, the better every AI output will be.
+# Update it whenever the client's situation changes.
+# ---
+
+client_id: CLIENT-XXX
+name: ""
+company: ""
+role: ""           # e.g. "Founder", "Solo consultant", "Freelance designer"
+industry: ""       # e.g. "Digital marketing agency", "SaaS", "E-commerce"
+start_date: ""     # YYYY-MM-DD
+plan_tier: starter # starter | professional | executive
+status: active     # active | paused | churned
+
+# What this person wants to achieve in the next 90 days.
+# Be specific. "Grow my business" is useless. "Close 3 agency retainers at $2k/month" is useful.
+goals:
+  - ""
+  - ""
+  - ""
+
+# What they are actively working on right now.
+current_projects:
+  - name: ""
+    status: active   # active | blocked | planning | complete
+    goal: ""
+    notes: ""
+  - name: ""
+    status: active
+    goal: ""
+    notes: ""
+
+# What is genuinely slowing them down or creating uncertainty.
+# Be honest — the AI will reference these directly.
+challenges:
+  - ""
+  - ""
+
+# How they prefer to work and receive information.
+# Examples:
+#   "Decisive, action-oriented. Skip context, give options."
+#   "Strategic thinker. Wants the why before the what."
+#   "Data-driven. Prefers evidence over opinion."
+operating_style: ""
+
+# Background that makes their situation unique.
+# Include: domain expertise, constraints, prior attempts, network.
+background: ""
+
+# Anything the AI should always keep in mind when generating outputs for this client.
+standing_instructions: ""
+
+# Delivery preferences
+delivery_channel: email    # email | slack | whatsapp
+delivery_time: "07:00"
+timezone: "UTC"
+
+# Milan's private notes (updated after each interaction — never committed)
+# notes:
+#   - date: "2026-06-23"
+#     note: ""

@@ -1,0 +1,18 @@
+# AICOS Client Registry
+# ---
+# This file contains only client IDs, tiers, and start dates.
+# No PII. Real client details are in data/clients/CLIENT-XXX/context.yaml (gitignored).
+# ---
+
+clients: []
+
+# Example entry (uncomment when first client is added):
+# clients:
+#   - client_id: CLIENT-001
+#     tier: starter          # starter | professional | executive
+#     status: active         # active | paused | churned
+#     start_date: "2026-06-23"
+#     billing_day: 1
+#     delivery_channel: email
+#     delivery_time: "07:00"
+#     timezone: "UTC"

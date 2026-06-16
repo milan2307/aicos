@@ -1,0 +1,24 @@
+# Private client data — never commit real prospect or client details
+data/clients/*.yaml
+data/clients/**/*.yaml
+!data/clients/CLIENT_TEMPLATE.yaml
+
+# Generated outputs
+data/outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
